@@ -112,11 +112,11 @@ task.spawn(function()
 
 			local bird_y = bird.Position.Y.Scale
 			
-			if bird_y > y_max then
-    jump()
-      elseif bird_y < y_min then
-    
-      end
+			if bird_y > y_max then 
+				mouse_press()
+			elseif bird_y < y_min then 
+				--wait 
+			end    
 		end 
 	end  
 end) 

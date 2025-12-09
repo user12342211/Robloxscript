@@ -115,7 +115,7 @@ task.spawn(function()
 			if bird_y > y_max then
     jump()
       elseif bird_y < y_min then
-    jump()
+    
       end
 		end 
 	end  

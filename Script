@@ -107,8 +107,8 @@ task.spawn(function()
 			local pos_y = closest_pipe.down.Position.Y.Scale 
 			local gap_pos = UDim2.new(pos_x, 0, pos_y-0.20, 0) 
 
-			local y_min = pos_y-0.25 
-			local y_max = pos_y - 0.20
+			local y_min = pos_y - 0.20
+			local y_max = pos_y - 0.5
 
 			local bird_y = bird.Position.Y.Scale
 			
